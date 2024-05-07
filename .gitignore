@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/.git
+/.firebase
 
 # testing
 /coverage
@@ -13,10 +15,12 @@
 
 # misc
 .DS_Store
-.env.local
+.env
 .env.development.local
 .env.test.local
-.env.production.local
+.env.production
+output.txt
+concat.js
 
 npm-debug.log*
 yarn-debug.log*
